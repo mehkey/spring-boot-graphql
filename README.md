@@ -1,5 +1,6 @@
 # Spring Boot Graphql for Books API
 
+[![Java CI with Gradle](https://github.com/mehkey/spring-boot-graphql/actions/workflows/gradle.yml/badge.svg)](https://github.com/mehkey/spring-boot-graphql/actions/workflows/gradle.yml)
 
 ## GraphQL API
 
