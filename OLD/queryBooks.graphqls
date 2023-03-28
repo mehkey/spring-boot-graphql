@@ -1,0 +1,17 @@
+type Query {
+    allBooks :BookListDTO
+    getPosts(PostId: Float!) :PostContentDTO    
+}
+
+type BookListDTO {
+    statusCode:Int!
+    totalRecord:Int!
+    postList:[BookDTO]
+}
+
+type BookDTO {
+    id:Int
+    name:String
+    author:String
+    description:String
+}
