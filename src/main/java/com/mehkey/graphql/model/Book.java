@@ -18,10 +18,11 @@ import java.util.List;
 public class Book {
  @Id
  @GeneratedValue(strategy = GenerationType.IDENTITY)
- private Long id;
+ private String id;
  private String name;
+ private int pageCount;
  private String description;
- private String Author;
+ private String authorId;
  
  @OneToMany(cascade = CascadeType.ALL,orphanRemoval = true,fetch = FetchType.EAGER)
  @JoinColumn(name = "book_id")
