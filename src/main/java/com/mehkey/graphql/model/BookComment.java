@@ -19,7 +19,7 @@ public class BookComment {
  @GeneratedValue(strategy = GenerationType.IDENTITY)
  private Long id;
  
- private String comentContent;
+ private String commentContent;
 
  public BookComment() {
   super();
